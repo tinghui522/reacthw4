@@ -1,5 +1,5 @@
 import {Layout} from 'antd';
-import {useState} from "react";
+
 
 
 import AppHeader from "../components/Header"
@@ -9,7 +9,7 @@ import products from "../json/products.json";
 
 const{ Header,Content,Footer} = Layout;
 function Home() {
-  const [isOnTouch,setIsOnTouch]=useState(false);
+  
   return (
     <Layout className="container main-layout">
       
